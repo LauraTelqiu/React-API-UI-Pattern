@@ -1,10 +1,10 @@
-import React, {useState, useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 
 export default function Cat(props) {
 
   let { catPic, num, index, cats } = props
   const [cat, setCat] = useState(null)
-  
+
   useEffect(() => {
     if (!cats.length) {
       const localCats = localStorage.getItem('cats')
@@ -13,7 +13,7 @@ export default function Cat(props) {
       setCat(cats[index])
     }
   }, [cats, index])
-  
+
 
   return (
     <div className="contanier">

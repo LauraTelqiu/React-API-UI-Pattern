@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <header>
-   
+
       <nav className='nav'>
-        {/* <Link to="/">Home</Link> */}
+        <Link className="link" to="/">Home</Link>
         <Link className='link' to="/cat-fact-1">Cat Fact 1</Link>
         <Link className='link' to="/cat-fact-2">Cat Fact 2</Link>
         <Link className='link' to="/cat-fact-3">Cat Fact 3</Link>
