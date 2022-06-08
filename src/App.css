@@ -1,12 +1,15 @@
 .App {
   background-color: rgb(197, 226, 197);
-  margin: 0;
+  /* margin: 0; */
   height: 100vh;
+
+
 
 }
 
 .contanier {
   text-align: center;
+
 }
 
 .nav {
@@ -15,7 +18,10 @@
   background-color: rgb(105, 105, 105);
   font-size: xx-large;
   color: rgb(226, 209, 197);
-  margin: 0;
+  width: 100%;
+
+
+
 }
 
 img {
@@ -23,6 +29,7 @@ img {
   padding: 10px;
   height: 400px;
   text-align: center;
+
 }
 
 .link {
@@ -30,8 +37,48 @@ img {
   text-decoration: none;
   text-align: center;
   padding: 10px;
+
+
 }
 
 .link:hover {
   background-color: lightgray;
+}
+
+@media only screen and (max-width: 1300px) {
+
+
+  .App {
+    width: fit-content;
+
+  }
+
+
+
+  .contanier {
+    width: 100%;
+
+
+
+
+  }
+
+  img {
+    width: 90%;
+    height: 90%;
+  }
+
+  .nav {
+    width: 72%;
+
+
+  }
+
+  .link {
+    font-size: medium;
+  }
+
+  header {
+    width: 140%;
+  }
 }
