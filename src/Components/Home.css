@@ -1,6 +1,6 @@
 .home {
   text-align: center;
-  padding: 5%;
+
   background-color: rgb(197, 226, 197);
   width: 100%;
 }
@@ -12,7 +12,8 @@
   }
 
   .home {
-    width: 90%;
+    width: 100%;
+
 
   }
 
